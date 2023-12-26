@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="category1_account_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>30</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 5px solid white;
+background-color: rgb(255, 255, 255);
+color: rgb(5, 159, 169);
+border-radius:10px;
+</string>
+    </property>
+    <property name="text">
+     <string>Account</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../pyqt5/MATELRIAL/IMG/account.jpg</normaloff>../../../../pyqt5/MATELRIAL/IMG/account.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="category1_home_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>30</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 5px solid white;
+background-color: rgb(255, 255, 255);
+color: rgb(5, 159, 169);
+border-radius:10px;
+</string>
+    </property>
+    <property name="text">
+     <string>Home</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../pyqt5/MATELRIAL/IMG/icons8-home-1000.png</normaloff>../../../../pyqt5/MATELRIAL/IMG/icons8-home-1000.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="product_buy_pushButton_4">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>730</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:disabled {
+color:#cbcbcb;
+border:3px solid #cbcbcb;
+border-radius:25px;
+}
+QPushButton:enabled {
+background-color:rgb(5, 159, 169);
+color: white;
+border-radius:25px;
+}
+
+QPushButton:hover {
+color:rgb(5, 159, 169);
+background-color:white;
+border:3px solid rgb(5, 159, 169);
+border-radius:25px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="product_buy_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>670</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:disabled {
+color:#cbcbcb;
+border:3px solid #cbcbcb;
+border-radius:25px;
+}
+QPushButton:enabled {
+background-color:rgb(5, 159, 169);
+color: white;
+border-radius:25px;
+}
+QPushButton:hover {
+color:rgb(5, 159, 169);
+background-color:white;
+border:3px solid rgb(5, 159, 169);
+border-radius:25px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Add Product</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="category1_b3b3Logo_label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../pyqt5/MATELRIAL/IMG/Logo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="category1_cart_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>30</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{
+border: 5px solid white;
+background-color: rgb(255, 255, 255);
+color: rgb(5, 159, 169);
+border-radius:10px;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Cart</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../pyqt5/MATELRIAL/IMG/icons8-cart-48.png</normaloff>../../../../pyqt5/MATELRIAL/IMG/icons8-cart-48.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="category1_orders_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>30</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 5px solid white;
+background-color: rgb(255, 255, 255);
+color: rgb(5, 159, 169);
+border-radius:10px;
+</string>
+    </property>
+    <property name="text">
+     <string>Orders</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../pyqt5/MATELRIAL/IMG/orders.jpg</normaloff>../../../../pyqt5/MATELRIAL/IMG/orders.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>140</y>
+      <width>831</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QHeaderView::section {
+    background-color: #06a0aa ;
+    color: white;
+	border: none;
+	border-right: 1px solid white;
+}
+QTableView {
+	 border: 2px solid #06a0aa;
+}
+QTableView::item:focus{
+    border: 2px solid #06a0aa;
+	color: #06a0aa;
+	background-color: rgb(212, 212, 212);
+}
+QScrollBar:vertical {
+    background: rgb(188, 224, 235);
+}
+ QScrollBar::handle:vertical {
+    background: rgb(71, 153, 176);
+ }
+QScrollBar:horizontal {
+    background:rgb(188, 224, 235);
+}
+ QScrollBar::handle:horizontal {
+    background: #06a0aa;
+ }</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="autoScrollMargin">
+     <number>16</number>
+    </property>
+    <property name="dragEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>false</bool>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectItems</enum>
+    </property>
+    <property name="sortingEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="columnCount">
+     <number>7</number>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>35</number>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>189</number>
+    </attribute>
+    <attribute name="horizontalHeaderHighlightSections">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderStretchLastSection">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="verticalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderStretchLastSection">
+     <bool>false</bool>
+    </attribute>
+    <row>
+     <property name="text">
+      <string>Product 1</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sans Serif Collection</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Product Name</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sans Serif Collection</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="foreground">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>6</red>
+        <green>160</green>
+        <blue>170</blue>
+       </color>
+      </brush>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Product Pices</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sans Serif Collection</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Product Details</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sans Serif Collection</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="foreground">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>6</red>
+        <green>160</green>
+        <blue>170</blue>
+       </color>
+      </brush>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Product Price</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sans Serif Collection</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="foreground">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>6</red>
+        <green>159</green>
+        <blue>169</blue>
+       </color>
+      </brush>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Product Discount</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sans Serif Collection</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Product Image</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sans Serif Collection</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="foreground">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>6</red>
+        <green>160</green>
+        <blue>170</blue>
+       </color>
+      </brush>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Category name</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sans Serif Collection</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>gfhgfh</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>sfddsfds</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>ghgfh</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="0" column="5">
+     <property name="text">
+      <string>gfhgfh</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="category1_background_label">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>1121</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(6, 160, 170);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="product_buy_pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>730</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover {
+color:red;
+background-color:white;
+border:3px solid red;
+border-radius:25px;
+}
+QPushButton{
+background-color:red;
+color: white;
+border-radius:25px;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Delete Product</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="login_email_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>670</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;
+border: 5px solid rgb(6, 160, 170);
+color: rgb(6, 160, 170);
+border-radius:10px;
+padding-left:10px;</string>
+    </property>
+    <property name="text">
+     <string>Product Name</string>
+    </property>
+   </widget>
+   <zorder>category1_background_label</zorder>
+   <zorder>category1_account_pushButton</zorder>
+   <zorder>category1_home_pushButton</zorder>
+   <zorder>product_buy_pushButton_4</zorder>
+   <zorder>product_buy_pushButton</zorder>
+   <zorder>category1_b3b3Logo_label</zorder>
+   <zorder>category1_cart_pushButton</zorder>
+   <zorder>category1_orders_pushButton</zorder>
+   <zorder>tableWidget</zorder>
+   <zorder>product_buy_pushButton_3</zorder>
+   <zorder>login_email_lineEdit</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

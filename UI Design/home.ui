@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>home_window</class>
+ <widget class="QDialog" name="home_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Sans Serif Collection</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>B3B3 - Home</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../../pyqt5/MATELRIAL/IMG/Logo.jpg</normaloff>../../../../pyqt5/MATELRIAL/IMG/Logo.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLabel" name="home_categories_label">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>350</y>
+     <width>341</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/newPrefix/Users/abdo mohsen/Pictures/Saved Pictures/980848.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../pyqt5/MATELRIAL/IMG/CATEGORY.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="home_home_label">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>390</y>
+     <width>311</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/newPrefix/Users/abdo mohsen/Pictures/download.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../pyqt5/MATELRIAL/IMG/home.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="home_order_label">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>520</y>
+     <width>311</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/newPrefix/Users/abdo mohsen/Pictures/download.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../pyqt5/MATELRIAL/IMG/order.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1111</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="category1_account_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>30</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 5px solid white;
+background-color: rgb(255, 255, 255);
+color: rgb(5, 159, 169);
+border-radius:10px;
+</string>
+    </property>
+    <property name="text">
+     <string>Account</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../pyqt5/MATELRIAL/IMG/icons8-male-user-24.png</normaloff>../../../../pyqt5/MATELRIAL/IMG/icons8-male-user-24.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="category1_b3b3Logo_label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../pyqt5/MATELRIAL/IMG/Logo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="category1_background_label">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>1121</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(6, 160, 170);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="category1_home_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>30</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 5px solid white;
+background-color: rgb(255, 255, 255);
+color: rgb(5, 159, 169);
+border-radius:10px;
+</string>
+    </property>
+    <property name="text">
+     <string>Home</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../pyqt5/MATELRIAL/IMG/icons8-home-1000.png</normaloff>../../../../pyqt5/MATELRIAL/IMG/icons8-home-1000.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="category1_orders_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>30</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 5px solid white;
+background-color: rgb(255, 255, 255);
+color: rgb(5, 159, 169);
+border-radius:10px;
+</string>
+    </property>
+    <property name="text">
+     <string>Orders</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../pyqt5/MATELRIAL/IMG/orders.jpg</normaloff>../../../../pyqt5/MATELRIAL/IMG/orders.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="category1_cart_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>30</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 5px solid white;
+background-color: rgb(255, 255, 255);
+color: rgb(5, 159, 169);
+border-radius:10px;
+</string>
+    </property>
+    <property name="text">
+     <string>Cart</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../pyqt5/MATELRIAL/IMG/icons8-cart-48.png</normaloff>../../../../pyqt5/MATELRIAL/IMG/icons8-cart-48.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="home_search_text_label">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>120</y>
+      <width>461</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Choose what suits your needs</string>
+    </property>
+   </widget>
+   <zorder>category1_background_label</zorder>
+   <zorder>category1_account_pushButton</zorder>
+   <zorder>category1_b3b3Logo_label</zorder>
+   <zorder>category1_home_pushButton</zorder>
+   <zorder>category1_orders_pushButton</zorder>
+   <zorder>category1_cart_pushButton</zorder>
+   <zorder>home_search_text_label</zorder>
+  </widget>
+  <widget class="QLineEdit" name="home_search_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>180</y>
+     <width>571</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sans Serif Collection</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:transparent;
+border: 5px solid white;
+color:white;
+border-radius:25px;
+padding-left:20px;</string>
+   </property>
+   <property name="text">
+    <string>search any thing</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="dragEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../../../pyqt5/img.qrc"/>
+  <include location="../../../../pyqt5/img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

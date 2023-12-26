@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cart_window</class>
+ <widget class="QMainWindow" name="cart_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>B3B3 - Cart</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../../pyqt5/MATELRIAL/IMG/Logo.jpg</normaloff>../../../../pyqt5/MATELRIAL/IMG/Logo.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="cart_productimg_label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>140</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;
+border: 5px solid rgb(6, 160, 170);
+border-radius:10px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../pyqt5/MATELRIAL/IMG/Logo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cart_b3b3Logo_label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../pyqt5/MATELRIAL/IMG/Logo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cart_background_label">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-10</y>
+      <width>820</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(6, 160, 170);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cart_home_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>30</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 5px solid white;
+color: rgb(5, 159, 169);
+border-radius:10px;
+</string>
+    </property>
+    <property name="text">
+     <string>Home</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../pyqt5/MATELRIAL/IMG/icons8-home-1000.png</normaloff>../../../../pyqt5/MATELRIAL/IMG/icons8-home-1000.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cart_orders_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>30</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 5px solid white;
+color: rgb(5, 159, 169);
+border-radius:10px;
+</string>
+    </property>
+    <property name="text">
+     <string>Orders</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../pyqt5/MATELRIAL/IMG/orders.jpg</normaloff>../../../../pyqt5/MATELRIAL/IMG/orders.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cart_account_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>30</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 5px solid white;
+color: rgb(5, 159, 169);
+border-radius:10px;
+</string>
+    </property>
+    <property name="text">
+     <string>Account</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../pyqt5/MATELRIAL/IMG/icons8-male-user-24.png</normaloff>../../../../pyqt5/MATELRIAL/IMG/icons8-male-user-24.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cart_remove_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>160</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>25</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15PX;
+background-color: rgb(255, 8, 8);
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cart_productname_label">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>130</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: TRANSPARENT;
+color: rgb(6, 160, 170);</string>
+    </property>
+    <property name="text">
+     <string>Product name</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cart_productdetail_label">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>170</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: TRANSPARENT;
+color: rgb(6, 160, 170);</string>
+    </property>
+    <property name="text">
+     <string>product details (category, color,etc)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cart_productprice_label">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>200</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>25</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: TRANSPARENT;
+color: rgb(6, 160, 170);</string>
+    </property>
+    <property name="text">
+     <string>50$</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cart_productBackground_label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>120</y>
+      <width>701</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(220, 220, 220);
+border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cart_productBackground_label2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>280</y>
+      <width>701</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(220, 220, 220);
+border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cart_productdetail_label2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>330</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: TRANSPARENT;
+color: rgb(6, 160, 170);</string>
+    </property>
+    <property name="text">
+     <string>product details (category, color,etc)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cart_productimg_label2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>300</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;
+border: 5px solid rgb(6, 160, 170);
+border-radius:10px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../pyqt5/MATELRIAL/IMG/Logo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cart_remove_pushButton2">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>320</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>25</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15PX;
+background-color: rgb(255, 8, 8);
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cart_productprice_label2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>360</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>25</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: TRANSPARENT;
+color: rgb(6, 160, 170);</string>
+    </property>
+    <property name="text">
+     <string>50$</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cart_productname_label2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>290</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: TRANSPARENT;
+color: rgb(6, 160, 170);</string>
+    </property>
+    <property name="text">
+     <string>Product name</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cart_purchase_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>460</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+border-radius:20px;
+background-color: rgb(6, 160, 170);
+</string>
+    </property>
+    <property name="text">
+     <string>purchase</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../pyqt5/MATELRIAL/IMG/icons8-done-1000 .png</normaloff>../../../../pyqt5/MATELRIAL/IMG/icons8-done-1000 .png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <zorder>cart_productBackground_label</zorder>
+   <zorder>cart_background_label</zorder>
+   <zorder>cart_productimg_label</zorder>
+   <zorder>cart_b3b3Logo_label</zorder>
+   <zorder>cart_home_pushButton</zorder>
+   <zorder>cart_orders_pushButton</zorder>
+   <zorder>cart_account_pushButton</zorder>
+   <zorder>cart_remove_pushButton</zorder>
+   <zorder>cart_productname_label</zorder>
+   <zorder>cart_productdetail_label</zorder>
+   <zorder>cart_productprice_label</zorder>
+   <zorder>cart_productBackground_label2</zorder>
+   <zorder>cart_productdetail_label2</zorder>
+   <zorder>cart_productimg_label2</zorder>
+   <zorder>cart_remove_pushButton2</zorder>
+   <zorder>cart_productprice_label2</zorder>
+   <zorder>cart_productname_label2</zorder>
+   <zorder>cart_purchase_pushButton</zorder>
+   <zorder>XXXXX</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../../../../pyqt5/img.qrc"/>
+  <include location="../../../../pyqt5/img.qrc"/>
+ </resources>
+ <connections/>
+</ui>
